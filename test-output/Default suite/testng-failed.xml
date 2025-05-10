@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="CreateUserWithPOJO.CreateUserTestWithPOJO">
+      <class name="AuthAPIs.AuthAPIsTest">
         <methods>
-          <include name="addUserTest"/>
+          <include name="digestAuthAPITest"/>
         </methods>
-      </class> <!-- CreateUserWithPOJO.CreateUserTestWithPOJO -->
+      </class> <!-- AuthAPIs.AuthAPIsTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

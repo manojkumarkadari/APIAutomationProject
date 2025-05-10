@@ -2,20 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-16T20:36:12 IST" name="Default suite" finished-at="2025-04-16T20:36:16 IST" duration-ms="3427">
+  <suite started-at="2025-05-07T21:03:17 IST" name="Default suite" finished-at="2025-05-07T21:03:18 IST" duration-ms="1996">
     <groups>
     </groups>
-    <test started-at="2025-04-16T20:36:12 IST" name="Default test" finished-at="2025-04-16T20:36:16 IST" duration-ms="3427">
-      <class name="GetCallWithDeserialization.getUser">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:GetCallWithDeserialization.getUser@f79e]" started-at="2025-04-16T20:36:12 IST" name="setUp" finished-at="2025-04-16T20:36:13 IST" duration-ms="486" status="PASS">
+    <test started-at="2025-05-07T21:03:17 IST" name="Default test" finished-at="2025-05-07T21:03:18 IST" duration-ms="1996">
+      <class name="RequestResponseSpecification.ReqspecBuilderTest">
+        <test-method signature="getUsersTest()[pri:0, instance:RequestResponseSpecification.ReqspecBuilderTest@33c911a1]" started-at="2025-05-07T21:03:17 IST" name="getUsersTest" finished-at="2025-05-07T21:03:18 IST" duration-ms="1916" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="getSingleUserTest()[pri:0, instance:GetCallWithDeserialization.getUser@f79e]" started-at="2025-04-16T20:36:13 IST" name="getSingleUserTest" finished-at="2025-04-16T20:36:16 IST" duration-ms="2875" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getSingleUserTest -->
-      </class> <!-- GetCallWithDeserialization.getUser -->
+        </test-method> <!-- getUsersTest -->
+      </class> <!-- RequestResponseSpecification.ReqspecBuilderTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

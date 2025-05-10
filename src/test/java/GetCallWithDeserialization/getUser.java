@@ -1,5 +1,6 @@
 package GetCallWithDeserialization;
 
+import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
@@ -31,6 +32,7 @@ public class getUser {
 		try {
 			User userres = mapper.readValue(res.getBody().asString(), User.class);
 			System.out.println("response is "+userres);
+			Assert.assertEquals(userres.getName(), "trilokesh");
 					
 		}
 		catch(JsonProcessingException e) {
